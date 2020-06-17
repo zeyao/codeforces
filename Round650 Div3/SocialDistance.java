@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.*;
 
+//https://codeforces.com/contest/1367/problem/C
 public class SocialDistance {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(new BufferedReader(new InputStreamReader(System.in)));	
