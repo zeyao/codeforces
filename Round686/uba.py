@@ -1,10 +1,7 @@
 from collections import Counter
 import sys
 
-m = int(input())
-for t in range(m):
-    k = int(input())
-    arr = str(input()).split(' ')
+def test(arr):
     c = Counter(arr)
     min = int(sys.maxsize)
     index = -1
@@ -14,4 +11,11 @@ for t in range(m):
             min = num
             index = i+1
     print(index)
+    
+m = int(input())
+for t in range(m):
+    k = int(input())
+    arr = str(input()).split(' ')
+    test(arr)
+
 
